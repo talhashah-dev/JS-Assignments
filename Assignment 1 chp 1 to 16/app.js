@@ -18,8 +18,6 @@
 // // Question-5
 // console.log("Hello... I can run JS through my web browser's console");
 
-
-
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 2 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 // // Question-1
 // let userName;
@@ -58,8 +56,6 @@
 // let symbols = ("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
 // document.write(symbols)
 
-
-
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 3 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 // // Question-1
@@ -80,8 +76,6 @@
 // let productName = " T-shirt"
 // let quantity = 5;
 // document.write(userName + " Ordered " + quantity + productName + "(s)" + " on A.B Clothing store.")
-
-
 
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 4 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
@@ -110,41 +104,39 @@
 // document.write("c) Variable names are case sensitive." + "<br>")
 // document.write("d) Variable names should not be JS keywords" + "<br>")
 
-
-
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 5 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 // // Question-1
-// // -- Addition -- 
+// // -- Addition --
 // let num1 = 3;
 // let num2 = 8;
 // let num3 = num1 +  num2;
-// document.write("Addition: " + num1 + " + " + num2 + "=" + num3)  
+// document.write("Addition: " + num1 + " + " + num2 + "=" + num3)
 
 // // Question-2
-// // -- Subtraction -- 
+// // -- Subtraction --
 // let num1 = 10;
 // let num2 = 3;
 // let num3 = num1 -  num2;
-// document.write("Subtraction: " + num1 + " - " + num2 + "=" + num3)  
+// document.write("Subtraction: " + num1 + " - " + num2 + "=" + num3)
 
-// // -- Multiplication -- 
+// // -- Multiplication --
 // let num1 = 10;
 // let num2 = 3;
 // let num3 = num1 *  num2;
-// document.write("Multiplication: " + num1 + " * " + num2 + "=" + num3)  
+// document.write("Multiplication: " + num1 + " * " + num2 + "=" + num3)
 
-// // -- Division -- 
+// // -- Division --
 // let num1 = 10;
 // let num2 = 2;
 // let num3 = num1 /  num2;
-// document.write("Division: " + num1 + " / " + num2 + "=" + num3)  
+// document.write("Division: " + num1 + " / " + num2 + "=" + num3)
 
-// // -- Modulus -- 
+// // -- Modulus --
 // let num1 = 10;
 // let num2 = 2;
 // let num3 = num1 %  num2;
-// document.write("Division: " + num1 + " % " + num2 + "=" + num3)  
+// document.write("Division: " + num1 + " % " + num2 + "=" + num3)
 
 // // Question-3
 // var myVariable;
@@ -264,7 +256,6 @@
 // document.write("Estimated Maximum Age: " + max_age + "<br>")
 // document.write("You will need " + total + fav_snack +" to last you until the ripe old age of " + max_age)4
 
-
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 6-9 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 // // Question-1
@@ -339,6 +330,18 @@
 //     alert("Invalid input. Please enter 'male' or 'female'.");
 // }
 
+// // Question-3
+// let signalColor = prompt("Enter a Signal Color (Red, Yellow or Green)س")
+// if(signalColor === "Red"){
+//     alert("Must Stop")
+// } else if (signalColor === "Yellow"){
+//     alert("Ready to move")
+// } else if (signalColor === "Green"){
+//     alert("Move now")
+// } else {
+//     alert("Please Enter a valid color between (Red, Yellow and Green)")
+// }
+
 // // Question-4
 // let remainingFuel = parseFloat(prompt("Enter the remaining fuel in your car in liters:"));
 // if (remainingFuel < 0.25) {
@@ -347,13 +350,178 @@
 //     alert("have a safe journey.");
 // }
 
+// Question-6
+// const totalMarks = 300;
+// let subEnglish = +prompt("Enter your obtained marks in English:");
+// let subMath = +prompt("Enter your obtained marks in Math:");
+// let subUrdu = +prompt("Enter your obtained marks in Urdu:");
+// let marksObtained = subEnglish + subMath + subUrdu;
+// let percentage = Math.floor((marksObtained / totalMarks) * 100);
+// let grade = ["A-one", "A", "B", "Fail"];
+// let reMarks = ["Excellent", "Good", "You need to improve", "Sorry"];
+
+// document.write("<h1>Marks Sheet</h1>");
+
+// if (percentage >= 80) {
+//   document.write(`Total Marks: ${totalMarks}<br>`);
+//   document.write(`Marks Obtained: ${marksObtained}<br>`);
+//   document.write(`Percentage: ${percentage}%<br>`);
+//   document.write(`Grade: ${grade[0]}<br>`);
+//   document.write(`Remarks: ${reMarks[0]}`);
+// } else if (percentage >= 70) {
+//   document.write(`Total Marks: ${totalMarks}<br>`);
+//   document.write(`Marks Obtained: ${marksObtained}<br>`);
+//   document.write(`Percentage: ${percentage}%<br>`);
+//   document.write(`Grade: ${grade[1]}<br>`);
+//   document.write(`Remarks: ${reMarks[1]}`);
+// } else if (percentage >= 60) {
+//   document.write(`Total Marks: ${totalMarks}<br>`);
+//   document.write(`Marks Obtained: ${marksObtained}<br>`);
+//   document.write(`Percentage: ${percentage}%<br>`);
+//   document.write(`Grade: ${grade[2]}<br>`);
+//   document.write(`Remarks: ${reMarks[2]}`);
+// } else {
+//   document.write(`Total Marks: ${totalMarks}<br>`);
+//   document.write(`Marks Obtained: ${marksObtained}<br>`);
+//   document.write(`Percentage: ${percentage}%<br>`);
+//   document.write(`Grade: ${grade[3]}<br>`);
+//   document.write(`Remarks: ${reMarks[3]}`);
+// }
+
+// Question-7
+// let secretNumber = Math.floor(Math.random() * 10) + 1;
+// let userGuess = prompt("Guess the secret number (between 1 and 10):");
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer.");
+// } else if (userGuess === secretNumber - 1 || userGuess === secretNumber + 1) {
+//     alert("Close enough to the correct answer.");
+// } else {
+//     alert("Sorry, you guessed wrong. The secret number was " + secretNumber + ".");
+// }
+
+// Question-8
+// let num = +prompt("Enter a number between 0 to 9:")
+// // console.log(result)
+// if (result === 0){
+//     alert("The number is divisible by 3.")
+// } else {
+//     alert("The number is not divisible by 3.")
+// }
+
+// Question-9
+// let num = +prompt("Enter a number:");
+// if(num % 2 === 0) {
+//     alert(`${num} is an even number.`);
+// } else {
+//     alert(`${num} is an odd number.`);
+// }
+
+// Question-10
+// let temperature = +prompt("Enter the temperature:");
+// if (temperature > 40) {
+//     alert("It is too hot outside.");
+// } else if (temperature > 30) {
+//     alert("The Weather today is Normal.");
+// } else if (temperature > 20) {
+//     alert("Today’s Weather is cool.");
+// } else if (temperature > 10) {
+//     alert("OMG! Today’s weather is so Cool.");
+// } else {
+//     alert("It's freezing outside!");
+// }
+
+// Question-10
+// let firstNumber = parseFloat(prompt("Enter the first number:"));
+// let secondNumber = parseFloat(prompt("Enter the second number:"));
+// let operation = prompt("Enter the operation (+, -, *, /, %):");
+// let result;
+// if (operation === "+") {
+//   result = firstNumber + secondNumber;
+// } else if (operation === "-") {
+//   result = firstNumber - secondNumber;
+// } else if (operation === "*") {
+//   result = firstNumber * secondNumber;
+// } else if (operation === "/") {
+//   result = firstNumber / secondNumber;
+// } else if (operation === "%") {
+//   result = firstNumber % secondNumber;
+// } else {
+//   alert("Please selecta a operation from +, -, *, /, or %.");
+// }
+
+// alert("Result: " + result);
 
 
 
+// // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 12-13 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+// Question-1
+// let input = prompt("Enter a character (number or string):");
+// if (!isNaN(input)) {
+//     alert(input + " is a number.");
+// } else if (input === input.toUpperCase()) {
+//     alert(input + " is an uppercase letter.");
+// } else if (input === input.toLowerCase()) {
+//     alert(input + " is a lowercase letter.");
+// } else {
+//     alert("The input is neither a number nor a letter.");
+// }
+
+
+// Question-2
+// let firstInteger = parseInt(prompt("Enter the first integer:"));
+// let secondInteger = parseInt(prompt("Enter the second integer:"));
+// if (firstInteger > secondInteger) {
+//     alert("The larger integer is: " + firstInteger);
+// } else if (secondInteger > firstInteger) {
+//     alert("The larger integer is: " + secondInteger);
+// } else {
+//     alert("Both integers are equal.");
+// }
+
+
+// Question-3
+// let number = parseFloat(prompt("Enter a number:"));
+// if (number > 0) {
+//     alert("The number is positive.");
+// } else if (number < 0) {
+//     alert("The number is negative.");
+// } else {
+//     alert("The number is zero.");
+// }
+
+// Question-4
+// let character = prompt("Enter a single character:");
+// if (character.length === 1 && /[aeiouAEIOU]/.test(character)) {
+//     alert(character + " is a vowel.");
+// } else {
+//     alert(character + " is not a vowel.");
+// }
+
+// Question-5
+// const correctPassword = 123456;
+// let enteredPassword = prompt("Enter your password:");
+// if (!enteredPassword) {
+//     alert("Please enter your password.");
+// } else if (enteredPassword === correctPassword) {
+//     alert("Correct! The password you entered matches the original password.");
+// } else {
+//     alert("Incorrect password. Please try again.");
+// }
 
 
 
+// Question-6
+// let greeting;
+// let hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
 
+
+// // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 14-16 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 
 

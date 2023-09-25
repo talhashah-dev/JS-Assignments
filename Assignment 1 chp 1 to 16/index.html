@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Assignment 1 Chp 1-16</title>
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRKCadT3aZ1ehRxURkhM2j5R_SLS0Zn5etQ&usqp=CAU" type="image/x-icon">
+    
+    <!-- internal css here -->
     <style>
         body{
             display: flex;
@@ -16,16 +18,34 @@
         }
         a{
             text-decoration: none;
+            color: blue;
         }
         a:hover{
             text-decoration: underline;
         }
+
+        kbd {
+            background-color: #f1f1f1;
+            border-radius: 4px;
+            padding: 4px 8px;
+            color: #000;
+        }
+
+        @media screen and (max-width: 1023px) {
+            #hint{
+                display: none;
+            }
+        }
+
     </style>
 </head>
 <body>
     <h1>JS Assignment 1 Chp 1-16</h1>
-    <h4>All the scripts are commented here is the github for Assignment 1 repo link to check the Javasctipt file and scripts:</h4>
-    <a href="https://github.com/stalhacode/JS-Assignments/tree/main/Assignment-chp%201%20to%2016" target="_blank">Git hub link</a>
+    <h4>All the scripts are commented. go to the Github repo link to check the Assignment 1 Javasctipt file and scripts:</h4>
+    <p><a href="https://github.com/stalhacode/JS-Assignments/tree/main/Assignment%201%20chp%201%20to%2016" target="_blank">Github link</a> OR Click <a href="./Assignment 1 chp 1 to 16.rar" download="Assignment 1 chp 1 to 16.rar">here</a> to download the zip file directly.</p>
+    <p id="hint">You can also view the Javascript file which is linked with html file by visitng the <strong>Page Source</strong> or pressing <kbd>Ctrl</kbd>+<kbd>U</kbd></p>
+    
+    <!-- ===== scripts here ===== -->
     <script src="app.js"></script>
 </body>
 </html>
