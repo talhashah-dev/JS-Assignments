@@ -524,7 +524,7 @@
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 14-16 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 // Question-1
-golet colorNames = ["red", "blue", "green"];
+colorNames = ["red", "blue", "green"];
 
 document.write("Original Array: " + colorNames + "<br>");
 
