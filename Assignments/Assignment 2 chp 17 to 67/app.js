@@ -32,5 +32,11 @@
 // };
 
 // // ---------- Question-5
-
-
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+// console.log("")
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(`Element at index ${i} is ${fruits[i]}`);
+// }
