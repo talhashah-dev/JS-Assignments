@@ -82,23 +82,76 @@
 
 // // ---------- Question-13
 
-let username = prompt("Enter your username:");
+// let username = prompt("Enter your username:");
 
-function isValidUsername(username) {
-    for (let i = 0; i < username.length; i++) {
-        let charCode = username.charCodeAt(i);
-        if (charCode === 33 || charCode === 44 || charCode === 46 || charCode === 64) {
-            return false;
-        }
+// function isValidUsername(username) {
+//     for (let i = 0; i < username.length; i++) {
+//         let charCode = username.charCodeAt(i);
+//         if (charCode === 33 || charCode === 44 || charCode === 46 || charCode === 64) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// if (isValidUsername(username)) {
+//     alert("Username is valid!");
+// } else {
+//     alert("Please enter a valid username without special symbols [@, ., !]");
+// }
+
+
+
+
+// // ---------- Question-14
+let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+let userInput = prompt("Enter your order:");
+let userInputLover = userInput.toLowerCase();
+
+let isItemFound = false;
+for (let i = 0; i < A.length; i++) {
+    if (A[i].toLowerCase() === userInputLover) {
+        isItemFound = true;
+        break;
     }
-    return true;
 }
 
-if (isValidUsername(username)) {
-    alert("Username is valid!");
+if (isItemFound) {
+    alert("Yes, the item is available in the list.");
 } else {
-    alert("Please enter a valid username without special symbols [@, ., !]");
+    alert("No, the item is not in the list.");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // ---------- Question-15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // ---------- Question-16
 
 
 
