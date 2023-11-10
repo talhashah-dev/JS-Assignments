@@ -35,6 +35,8 @@ body{
     width: 80%;
     border: 1px solid white;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     margin: 10px;
