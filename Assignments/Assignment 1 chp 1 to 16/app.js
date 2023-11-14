@@ -524,43 +524,43 @@
 // // -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-- Chapter 14-16 --\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
 // Question-1
-colorNames = ["red", "blue", "green"];
+// colorNames = ["red", "blue", "green"];
 
-document.write("Original Array: " + colorNames + "<br>");
+// document.write("Original Array: " + colorNames + "<br>");
 
-let colorToAddStart = prompt("Enter a color to add to the beginning:");
-colorNames.unshift(colorToAddStart);
+// let colorToAddStart = prompt("Enter a color to add to the beginning:");
+// colorNames.unshift(colorToAddStart);
 
-document.write("Array after adding to the beginning: " + colorNames + "<br>");
+// document.write("Array after adding to the beginning: " + colorNames + "<br>");
 
-let colorToAddEnd = prompt("Enter a color to add to the end:");
-colorNames.push(colorToAddEnd);
+// let colorToAddEnd = prompt("Enter a color to add to the end:");
+// colorNames.push(colorToAddEnd);
 
-document.write("Array after adding to the end: " + colorNames + "<br>");
+// document.write("Array after adding to the end: " + colorNames + "<br>");
 
-colorNames.unshift("orange", "yellow");
+// colorNames.unshift("orange", "yellow");
 
-document.write("Array after adding two more to the beginning: " + colorNames + "<br>");
+// document.write("Array after adding two more to the beginning: " + colorNames + "<br>");
 
-colorNames.shift();
+// colorNames.shift();
 
-document.write("Array after deleting the first color: " + colorNames + "<br>");
+// document.write("Array after deleting the first color: " + colorNames + "<br>");
 
-colorNames.pop();
+// colorNames.pop();
 
-document.write("Array after deleting the last color: " + colorNames + "<br>");
+// document.write("Array after deleting the last color: " + colorNames + "<br>");
 
-let indexToAdd = parseInt(prompt("Enter the index to add a color:"));
-let colorToAddAtIndex = prompt("Enter the color name to add:");
-colorNames.splice(indexToAdd, 0, colorToAddAtIndex);
+// let indexToAdd = parseInt(prompt("Enter the index to add a color:"));
+// let colorToAddAtIndex = prompt("Enter the color name to add:");
+// colorNames.splice(indexToAdd, 0, colorToAddAtIndex);
 
-document.write("Array after adding at the desired index: " + colorNames + "<br>");
+// document.write("Array after adding at the desired index: " + colorNames + "<br>");
 
 
-let indexToDelete = parseInt(prompt("Enter the index to delete from:"));
-let deleteCount = parseInt(prompt("Enter how many colors to delete:"));
-colorNames.splice(indexToDelete, deleteCount);
-document.write("Array after deleting from the desired index: " + colorNames + "<br>");
+// let indexToDelete = parseInt(prompt("Enter the index to delete from:"));
+// let deleteCount = parseInt(prompt("Enter how many colors to delete:"));
+// colorNames.splice(indexToDelete, deleteCount);
+// document.write("Array after deleting from the desired index: " + colorNames + "<br>");
 
 
 

@@ -39,7 +39,7 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
     margin-top: 0;
     margin-bottom: 50px;
     border-top: none;
@@ -57,3 +57,17 @@ body{
     margin-right: 0;
 }
 
+a{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 6px 16px;
+    border-radius: 3px;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.95;
+    text-decoration: underline;
+}

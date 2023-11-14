@@ -104,39 +104,30 @@
 
 
 // // ---------- Question-14
-let A = ["cake", "apple pie", "cookie", "chips", "patties"];
-let userInput = prompt("Enter your order:");
-let userInputLover = userInput.toLowerCase();
+// let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userInput = prompt("Enter your order:");
+// let userInputLover = userInput.toLowerCase();
 
-let isItemFound = false;
-for (let i = 0; i < A.length; i++) {
-    if (A[i].toLowerCase() === userInputLover) {
-        isItemFound = true;
-        break;
-    }
-}
+// let isItemFound = false;
+// for (let i = 0; i < A.length; i++) {
+//     if (A[i].toLowerCase() === userInputLover) {
+//         isItemFound = true;
+//         break;
+//     }
+// }
 
-if (isItemFound) {
-    alert("Yes, the item is available in the list.");
-} else {
-    alert("No, the item is not in the list.");
-}
-
-
-
-
-
-
-
-
-
-
-
-
+// if (isItemFound) {
+//     alert("Yes, the item is available in the list.");
+// } else {
+//     alert("No, the item is not in the list.");
+// }
 
 
 // // ---------- Question-15
+// let userPassword = prompt("Enter your password:");
+// function isPasswordValid(){
 
+// };
 
 
 
@@ -153,7 +144,28 @@ if (isItemFound) {
 
 // // ---------- Question-16
 
+// let university = "University of Karachi";
 
+// let split = university.split('');
+
+// split.forEach(function(charecter){
+//     console.log(charecter)
+// });
+
+
+
+
+// // ---------- Question-17
+
+var userInput = prompt("Enter a string:");
+
+if (userInput.length > 0) {
+    var lastCharacter = userInput.charAt(userInput.length - 1);
+
+    alert("The last character is: " + lastCharacter);
+} else {
+    alert("Please enter a valid string.");
+}
 
 
 
